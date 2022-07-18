@@ -285,8 +285,7 @@ function reload(arr) {
         price.append(h33)
         bottom.append(button)
 
-        // Кнопка "Избранное"
-        let counter = document.querySelector('corzina_count')
+        // Кнопка "Избранное" и место избранных
         button.onclick = () => {
             if (button.classList.contains('active')) {
                 button.classList.remove('active')
@@ -298,6 +297,7 @@ function reload(arr) {
         }
     }
 }
+
 
 reload(data)
 
