@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,13 +10,24 @@
 </head>
 <body>
     <div class="cart-box">
-        <h1>В корзине: 1 товар</h1>
+        <div class="corzina">
+            <h1>В корзине:</h1>
+            <h1 class="corzina_count">0</h1>
+        </div>
         <div class="btn-box">
             <button class="five">Показать первые 5</button>
             <button class="vse">Показать все</button>
+            <a href="#izbrannoe"><button class="izbrannoe">Избранное</button></a>
         </div>
     </div>
     <div class="container"></div>
+    <div class="cart">
+        <a name="izbrannoe"></a>
+        <center><h1>Избранное</h1></center>
+        <br>
+        <center><h1>Тут пусто</h1></center>
+        <div class="izb"></div>
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>

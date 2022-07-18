@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat';
+    scroll-behavior: smooth;
 }
 .container{
     width: 99%;
@@ -33,6 +34,9 @@
     padding: 30px;
 }
 .p1{
+    width: 200px;
+    height: 20px;
+    overflow: hidden;
     margin-top: 11px;
     font-size: 12px;
     color: rgba(255, 255, 255, 0.56);
@@ -82,4 +86,27 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 10px;
+}
+.izbrannoe{
+    width: 254px;
+    height: 55px;
+
+    color: black;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+.img1{
+    width: 100px;
+    height: 100px;
+}
+.active{
+    background-color: #1F86FF;
+    color: white;
+}
+.corzina{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
 }
